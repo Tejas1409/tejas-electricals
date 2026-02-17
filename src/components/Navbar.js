@@ -14,6 +14,8 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const navItems = ["Home", "About", "Services", "Projects", "Clients", "Contact"];
+
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-500 ${
@@ -43,7 +45,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 font-medium text-lg">
-          {["Home", "About", "Services", "Contact"].map((item) => (
+          {navItems.map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
@@ -86,10 +88,16 @@ export default function Navbar() {
               : "bg-black/80 text-white"
           }`}
         >
-          <a href="#home" className="block hover:text-yellow-500">Home</a>
-          <a href="#about" className="block hover:text-yellow-500">About</a>
-          <a href="#services" className="block hover:text-yellow-500">Services</a>
-          <a href="#contact" className="block hover:text-yellow-500">Contact</a>
+          {navItems.map((item) => (
+            <a 
+              key={item}
+              href={`#${item.toLowerCase()}`} 
+              className="block hover:text-yellow-500 transition duration-300"
+              onClick={() => setIsOpen(false)}
+            >
+              {item}
+            </a>
+          ))}
         </div>
       )}
     </nav>
