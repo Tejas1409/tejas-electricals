@@ -109,8 +109,8 @@ const Contact = () => {
               <Phone className="text-yellow-400 flex-shrink-0 mt-1" size={24} />
               <div>
                 <h3 className="font-bold text-lg mb-2">Phone</h3>
-                <p className="text-gray-400">+91 98765 43210</p>
-                <p className="text-gray-400">+91 020 12345 678</p>
+                <p className="text-gray-400">+91 9822772824</p>
+                <p className="text-gray-400">+91 9146041427</p>
               </div>
             </div>
 
@@ -118,8 +118,8 @@ const Contact = () => {
               <Mail className="text-yellow-400 flex-shrink-0 mt-1" size={24} />
               <div>
                 <h3 className="font-bold text-lg mb-2">Email</h3>
-                <p className="text-gray-400">info@tejaselectricals.com</p>
-                <p className="text-gray-400">support@tejaselectricals.com</p>
+                <p className="text-gray-400">tejaselectricals2790@gmail.com</p>
+                <p className="text-gray-400">menegajanan@gmail.com</p>
               </div>
             </div>
 
@@ -127,7 +127,7 @@ const Contact = () => {
               <MapPin className="text-yellow-400 flex-shrink-0 mt-1" size={24} />
               <div>
                 <h3 className="font-bold text-lg mb-2">Location</h3>
-                <p className="text-gray-400">Pune, Maharashtra</p>
+                <p className="text-gray-400">Karvenagr Pune, Maharashtra</p>
                 <p className="text-gray-400">India - 411001</p>
               </div>
             </div>
