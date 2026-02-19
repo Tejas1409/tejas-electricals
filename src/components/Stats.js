@@ -5,7 +5,7 @@ const Stats = () => {
   const stats = [
     { label: "Projects Completed", value: "500+", icon: "🏗️" },
     { label: "Happy Clients", value: "200+", icon: "😊" },
-    { label: "Team Members", value: "50+", icon: "👥" },
+    { label: "Team Members", value: "10+", icon: "👥" },
     { label: "Years Experience", value: "30+", icon: "⚡" }
   ];
 

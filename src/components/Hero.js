@@ -67,7 +67,7 @@ export default function Hero() {
 
         {/* Availability Note */}
         <p className="mt-6 text-sm text-gray-300">
-          Available 9am - 6pm | Supervisor License Certified
+          Available 9 AM - 6 PM | License Certified
         </p>
       </motion.div>
     </section>

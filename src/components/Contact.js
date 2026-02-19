@@ -51,7 +51,6 @@ const Contact = () => {
       ...prev,
       [name]: value
     }));
-    // Clear error for this field
     if (errors[name]) {
       setErrors(prev => ({
         ...prev,
@@ -64,11 +63,9 @@ const Contact = () => {
     e.preventDefault();
     
     if (validateForm()) {
-      // Here you would send the form data to your backend
       console.log("Form submitted:", formData);
       setSubmitted(true);
       
-      // Reset form after 3 seconds
       setTimeout(() => {
         setFormData({
           name: '',
@@ -97,7 +94,7 @@ const Contact = () => {
           <p className="text-gray-400 text-lg">Have questions? We'd love to hear from you</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           {/* Contact Info */}
           <motion.div
             className="space-y-8"
@@ -131,6 +128,25 @@ const Contact = () => {
                 <p className="text-gray-400">India - 411001</p>
               </div>
             </div>
+
+            {/* Embedded Map */}
+            <motion.div
+              className="mt-8 rounded-lg overflow-hidden shadow-lg border border-gray-700"
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.7825052840176!2d73.81437849305365!3d18.4935083890722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf004f0daa9f%3A0x3caac5b33029f58e!2sTejas%20Electricals!5e0!3m2!1sen!2sin!4v1771421486587!5m2!1sen!2sin"
+                width="100%"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Tejas Electricals Location"
+              ></iframe>
+            </motion.div>
           </motion.div>
 
           {/* Contact Form */}
@@ -149,9 +165,10 @@ const Contact = () => {
                 <p className="text-gray-300 mt-2">We'll get back to you soon.</p>
               </motion.div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6 bg-gray-700/30 p-8 rounded-lg border border-gray-700">
                 {/* Name */}
                 <div>
+                  <label className="block text-sm font-semibold mb-2">Name</label>
                   <input
                     type="text"
                     name="name"
@@ -167,6 +184,7 @@ const Contact = () => {
 
                 {/* Email */}
                 <div>
+                  <label className="block text-sm font-semibold mb-2">Email</label>
                   <input
                     type="email"
                     name="email"
@@ -182,6 +200,7 @@ const Contact = () => {
 
                 {/* Phone */}
                 <div>
+                  <label className="block text-sm font-semibold mb-2">Phone</label>
                   <input
                     type="tel"
                     name="phone"
@@ -197,6 +216,7 @@ const Contact = () => {
 
                 {/* Subject */}
                 <div>
+                  <label className="block text-sm font-semibold mb-2">Subject</label>
                   <input
                     type="text"
                     name="subject"
@@ -212,12 +232,13 @@ const Contact = () => {
 
                 {/* Message */}
                 <div>
+                  <label className="block text-sm font-semibold mb-2">Message</label>
                   <textarea
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="Your Message (min. 10 characters)"
-                    rows="5"
+                    rows="4"
                     className={`w-full bg-gray-700 text-white px-6 py-3 rounded-lg focus:outline-none focus:border-2 focus:border-yellow-400 transition resize-none ${
                       errors.message ? 'border-2 border-red-500' : 'border border-gray-600'
                     }`}

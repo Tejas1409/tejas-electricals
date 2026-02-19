@@ -19,7 +19,7 @@ const Testimonials = () => {
       company: "XYZ Hotels",
       position: "General Manager",
       text: "Outstanding workmanship and timely completion. Their attention to detail is exceptional. Great team to work with. We trust them completely.",
-      rating: 5,
+      rating: 4,
       image: "https://via.placeholder.com/80x80?text=PS"
     },
     {
@@ -37,7 +37,7 @@ const Testimonials = () => {
       company: "GHI Schools",
       position: "Principal",
       text: "Professional team, quality work, and reasonable pricing. They understood our requirements perfectly and delivered beyond expectations.",
-      rating: 5,
+      rating: 4,
       image: "https://via.placeholder.com/80x80?text=NG"
     },
     {

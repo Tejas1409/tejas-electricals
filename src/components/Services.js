@@ -3,17 +3,23 @@ import { motion } from "framer-motion";
 // Import your local images
 import residentialImg from "../assets/images/residential.jpg";
 import industrialImg from "../assets/images/industrial.jpg";
-import acImg from "../assets/images/ac.jpg";
+import acImg from "../assets/images/commercial.jpg";
 import cctvImg from "../assets/images/cctv.jpg";
 import fireImg from "../assets/images/fire.jpg";
 import solarImg from "../assets/images/solar.jpg";
+import upsImg from "../assets/images/ups.jpg";
+import lightImg from "../assets/images/light.jpg";
+import videoImg from "../assets/images/video.jpg";
 
 const services = [
   { title: "Residential Wiring", img: residentialImg, desc: "Complete home wiring & electrical installation services." },
   { title: "Industrial Projects", img: industrialImg, desc: "Large-scale electrical setups for industries & warehouses." },
-  { title: "AC Installation & Repair", img: acImg, desc: "Professional AC setup, wiring, and servicing." },
+  { title: "Commercial Wiring & Installations", img: acImg, desc: "Professional wiring, panel setup, and electrical infrastructure for commercial properties." },
   { title: "CCTV & Security Systems", img: cctvImg, desc: "Advanced CCTV and security alarm installations." },
   { title: "Fire Safety Systems", img: fireImg, desc: "Reliable fire detection & suppression systems." },
+  { title: "Street Lighting Solutions", img: lightImg, desc: "Professional LED street and outdoor lighting installations." },
+  { title: "Video Door & Access Control Systems", img: videoImg, desc: "Secure video door phones and advanced access control solutions for homes and commercial properties." },
+  { title: "UPS & Inverter Installation", img: upsImg, desc: "Reliable power backup systems for homes and businesses." },
   { title: "Solar Solutions", img: solarImg, desc: "Affordable and sustainable solar panel installations." },
 ];
 

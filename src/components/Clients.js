@@ -82,9 +82,12 @@ const Clients = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <button className="bg-yellow-400 text-gray-900 px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-            Become Our Client Today
-          </button>
+          <a
+            href="#contact"
+            className="bg-yellow-400 text-gray-900 px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 inline-block"
+          >
+              Become Our Client Today
+          </a>
         </motion.div>
       </div>
     </section>
