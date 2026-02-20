@@ -12,7 +12,7 @@ import p7 from "../assets/images/projects/p7.jpg";
 import p9 from "../assets/images/projects/p9.jpg";
 
 const Projects = () => {
- // const [selectedCategory, setSelectedCategory] = useState("All");
+ const [selectedCategory, /*setSelectedCategory*/] = useState("All");
 
   const projects = [
     {
