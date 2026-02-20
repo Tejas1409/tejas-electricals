@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-import p1 from "../assets/images/projects/p1.jpg";
+//import p1 from "../assets/images/projects/p1.jpg";
 import p2 from "../assets/images/projects/p2.jpg";
 import p3 from "../assets/images/projects/p3.jpg";
 import p4 from "../assets/images/projects/p4.jpg";
-import p5 from "../assets/images/projects/p5.jpg";
+//import p5 from "../assets/images/projects/p5.jpg";
 import p6 from "../assets/images/projects/p6.jpg";
 import p7 from "../assets/images/projects/p7.jpg";
-import p8 from "../assets/images/projects/p8.jpg";
+//import p8 from "../assets/images/projects/p8.jpg";
 import p9 from "../assets/images/projects/p9.jpg";
 
 const Projects = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+ // const [selectedCategory, setSelectedCategory] = useState("All");
 
   const projects = [
     {
@@ -65,13 +65,13 @@ const Projects = () => {
     },
   ];
 
-  const categories = [
-    "All",
-    "Residential",
-    "Commercial",
-    "Industrial",
-    "Solar",
-  ];
+  // const categories = [
+  //   "All",
+  //   "Residential",
+  //   "Commercial",
+  //   "Industrial",
+  //   "Solar",
+  // ];
 
   const filteredProjects =
     selectedCategory === "All"
