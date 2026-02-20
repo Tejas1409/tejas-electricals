@@ -1,16 +1,26 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+
+import c1 from "../assets/images/client/c1.jpg";
+import c2 from "../assets/images/client/c2.jpg";
+import c3 from "../assets/images/client/c3.jpg";
+import c4 from "../assets/images/client/c4.jpg";
+import c5 from "../assets/images/client/c5.jpg";
+import c6 from "../assets/images/client/c6.jpg";
+import c7 from "../assets/images/client/c7.jpg";
+import c8 from "../assets/images/client/c8.jpg";
+
 const Clients = () => {
   const clients = [
-    { id: 1, name: "ABC Manufacturing", logo: "https://via.placeholder.com/150x100?text=ABC+Mfg" },
-    { id: 2, name: "XYZ Hotels Ltd", logo: "https://via.placeholder.com/150x100?text=XYZ+Hotels" },
-    { id: 3, name: "DEF Hospitals", logo: "https://via.placeholder.com/150x100?text=DEF+Hospital" },
-    { id: 4, name: "GHI Schools Network", logo: "https://via.placeholder.com/150x100?text=GHI+Schools" },
-    { id: 5, name: "JKL Residences", logo: "https://via.placeholder.com/150x100?text=JKL+Res" },
-    { id: 6, name: "MNO Retail Group", logo: "https://via.placeholder.com/150x100?text=MNO+Retail" },
-    { id: 7, name: "PQR Industries", logo: "https://via.placeholder.com/150x100?text=PQR+Ind" },
-    { id: 8, name: "STU Corporate", logo: "https://via.placeholder.com/150x100?text=STU+Corp" }
+    { id: 1, name: "D Y Patil University", logo: c1 },
+    { id: 2, name: "Alpha ICT", logo: c2 },
+    { id: 3, name: "Sanghar Group", logo: c3 },
+    { id: 4, name: "TATA Motors", logo: c4 },
+    { id: 5, name: "Human Cloud", logo: c5 },
+    { id: 6, name: "Kirloskar Group", logo: c6 },
+    { id: 7, name: "Westend Mall", logo: c7 },
+    { id: 8, name: "Mahale", logo: c8 }
   ];
 
   const containerVariants = {

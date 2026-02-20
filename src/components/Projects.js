@@ -1,7 +1,15 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-import cctvImg from "../assets/images/cctv.jpg";
+import p1 from "../assets/images/projects/p1.jpg";
+import p2 from "../assets/images/projects/p2.jpg";
+import p3 from "../assets/images/projects/p3.jpg";
+import p4 from "../assets/images/projects/p4.jpg";
+import p5 from "../assets/images/projects/p5.jpg";
+import p6 from "../assets/images/projects/p6.jpg";
+import p7 from "../assets/images/projects/p7.jpg";
+import p8 from "../assets/images/projects/p8.jpg";
+import p9 from "../assets/images/projects/p9.jpg";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -9,51 +17,51 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Residential Wiring Installation",
+      title: "Westend Mall (Aundh)",
       description:
-        "Complete electrical installation for a modern residential complex with modern circuit protection systems",
-      image: cctvImg,
-      category: "Residential",
+        "Complete commercial electrical wiring and lighting installation for retail spaces and common areas.",
+      image: p4,
+      category: "Commercial",
     },
     {
       id: 2,
-      title: "Industrial Power Setup",
+      title: "Astekar Jwellers (Laxmi Road)",
       description:
-        "High-voltage electrical systems for manufacturing facility with backup generators and distribution panels",
-      image: "https://via.placeholder.com/400x300?text=Industrial+Project",
-      category: "Industrial",
+        "High-quality electrical setup with focused lighting and secure power systems for showroom operations.",
+      image: p2,
+      category: "Commercial",
     },
     {
       id: 3,
-      title: "Solar Panel Installation",
+      title: "New Art and Science College (Nagar)",
       description:
-        "5kW rooftop solar panel setup with battery backup system and monitoring dashboard",
-      image: "https://via.placeholder.com/400x300?text=Solar+Project",
-      category: "Solar",
+        "Reliable electrical installation and maintenance work for classrooms, labs, and campus facilities.",
+      image: p3,
+      category: "Commercial",
     },
     {
       id: 4,
-      title: "CCTV Network System",
+      title: "Mahle (Chakan)",
       description:
-        "24-camera surveillance system with cloud storage, night vision, and 24/7 monitoring",
-      image: "https://via.placeholder.com/400x300?text=CCTV+Project",
-      category: "Commercial",
+        "Complete industrial electrical installation, panel wiring, and power distribution for factory operations",
+      image: p9,
+      category: "Industrial",
     },
     {
       id: 5,
-      title: "Fire Safety Systems",
+      title: "Residential Project (Bavdhan)",
       description:
-        "Automatic fire detection and suppression system installation with emergency protocols",
-      image: "https://via.placeholder.com/400x300?text=Fire+Safety+Project",
-      category: "Commercial",
+        "Complete home electrical wiring and lighting solutions with safety and quality standards.",
+      image: p7,
+      category: "Residential",
     },
     {
       id: 6,
-      title: "Smart AC Installation",
+      title: "Human Cloud (Baner)",
       description:
-        "Commercial AC system with smart thermostat control and energy optimization features",
-      image: "https://via.placeholder.com/400x300?text=AC+Installation",
-      category: "Residential",
+        "Modern electrical infrastructure and lighting installation for corporate office workspace.",
+      image: p6,
+      category: "Commercial",
     },
   ];
 
@@ -107,7 +115,7 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        {/* Category Filter */}
+        {/* Category Filter
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((cat) => (
             <motion.button
@@ -124,7 +132,7 @@ const Projects = () => {
               {cat}
             </motion.button>
           ))}
-        </div>
+        </div> */}
 
         {/* Projects Grid */}
         <motion.div

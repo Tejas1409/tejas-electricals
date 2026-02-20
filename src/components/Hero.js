@@ -46,7 +46,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="text-lg mb-6 max-w-2xl mx-auto text-gray-200">
-          Residential | Industrial | AC | CCTV | Fire Safety | Solar | Security Systems
+         Commercial | Residential | Industrial | CCTV | Fire Safety | Solar | Security Systems
         </p>
 
         {/* Buttons */}

@@ -7,17 +7,17 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Rajesh Kumar",
-      company: "ABC Manufacturing",
+      company: "Shriman Manufacturing",
       position: "Operations Manager",
       text: "Tejas Electricals provided excellent service and professionalism. Their team completed our industrial setup on time and within budget. Highly recommended!",
       rating: 5,
-      image: "https://via.placeholder.com/80x80?text=RK"
+      image: ""
     },
     {
       id: 2,
-      name: "Priya Sharma",
-      company: "XYZ Hotels",
-      position: "General Manager",
+      name: "Datta Pathare",
+      company: "Pathare Interiors",
+      position: "Owner",
       text: "Outstanding workmanship and timely completion. Their attention to detail is exceptional. Great team to work with. We trust them completely.",
       rating: 4,
       image: "https://via.placeholder.com/80x80?text=PS"
@@ -25,7 +25,7 @@ const Testimonials = () => {
     {
       id: 3,
       name: "Amit Patel",
-      company: "DEF Hospitals",
+      company: "Nobel Hospitals",
       position: "Facility Manager",
       text: "Fast response time and reliable electrical solutions. Their 24/7 support is a game changer for our hospital operations. Best decision we made.",
       rating: 5,
@@ -34,7 +34,7 @@ const Testimonials = () => {
     {
       id: 4,
       name: "Neha Gupta",
-      company: "GHI Schools",
+      company: "New Art & Science College",
       position: "Principal",
       text: "Professional team, quality work, and reasonable pricing. They understood our requirements perfectly and delivered beyond expectations.",
       rating: 4,
@@ -52,7 +52,7 @@ const Testimonials = () => {
     {
       id: 6,
       name: "Anjali Desai",
-      company: "MNO Retail",
+      company: "Mangaldas Ventures",
       position: "Store Manager",
       text: "The electrical work was completed efficiently with minimal disruption to our business. Highly professional and courteous team members.",
       rating: 5,
@@ -123,12 +123,12 @@ const Testimonials = () => {
 
               {/* Client Info */}
               <div className="flex items-center gap-4 pt-6 border-t border-gray-700">
-                <img
+                {/* <img
                   src={testimonial.image}
                   alt={testimonial.name}
                   loading="lazy"
                   className="w-12 h-12 rounded-full object-cover"
-                />
+                /> */}
                 <div>
                   <p className="font-bold text-yellow-400">{testimonial.name}</p>
                   <p className="text-sm text-gray-400">{testimonial.position}</p>
