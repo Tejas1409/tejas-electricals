@@ -27,16 +27,16 @@ export default function Footer() {
 
         {/* Social Icons */}
         <div className="flex justify-center space-x-6 mt-8">
-          <a href="tel:+919876543210" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
+          <a href="tel:+919822772824" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
             <Phone size={20} />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
+          <a href="https://www.facebook.com/profile.php?id=61588283980309" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
             <Facebook size={20} />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
+          <a href="https://www.instagram.com/tejas.electricals?igsh=dzBidXQwZWV4MXZx&utm_source=qr" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
             <Instagram size={20} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
+          <a href="https://www.linkedin.com/in/tejas-electricals-8a25813b2/" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-blue-700 hover:bg-yellow-500 transition transform hover:scale-110 shadow-lg">
             <Linkedin size={20} />
           </a>
         </div>

@@ -6,7 +6,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Rajesh Kumar",
+      name: "Priya Kinikar",
       company: "Shriman Manufacturing",
       position: "Operations Manager",
       text: "Tejas Electricals provided excellent service and professionalism. Their team completed our industrial setup on time and within budget. Highly recommended!",
@@ -24,7 +24,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: "Amit Patel",
+      name: "Anil Gokhale",
       company: "Nobel Hospitals",
       position: "Facility Manager",
       text: "Fast response time and reliable electrical solutions. Their 24/7 support is a game changer for our hospital operations. Best decision we made.",
@@ -33,7 +33,7 @@ const Testimonials = () => {
     },
     {
       id: 4,
-      name: "Neha Gupta",
+      name: "Ajit Shinde",
       company: "New Art & Science College",
       position: "Principal",
       text: "Professional team, quality work, and reasonable pricing. They understood our requirements perfectly and delivered beyond expectations.",
@@ -42,7 +42,7 @@ const Testimonials = () => {
     },
     {
       id: 5,
-      name: "Vikram Singh",
+      name: "Arati Pitre",
       company: "JKL Residences",
       position: "Developer",
       text: "Their solar installation has reduced our energy bills significantly. Excellent customer service and technical support throughout the process.",
@@ -51,7 +51,7 @@ const Testimonials = () => {
     },
     {
       id: 6,
-      name: "Anjali Desai",
+      name: "Viky Shah",
       company: "Mangaldas Ventures",
       position: "Store Manager",
       text: "The electrical work was completed efficiently with minimal disruption to our business. Highly professional and courteous team members.",

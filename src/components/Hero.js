@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroBg from "../assets/images/bg-hero.jpg";
-import logo from "../assets/images/logo.png";
+//import logo from "../assets/images/logo.png";
 
 export default function Hero() {
   return (
@@ -25,24 +25,24 @@ export default function Hero() {
       >
         {/* Logo + Title */}
         <div className="flex flex-col items-center mb-6">
-          <img
+          {/* <img
             src={logo}
             alt="Tejas Electricals Logo"
             className="h-36 md:h-44 mb-2 drop-shadow-2xl"
-          />
-          <h2 className="text-3xl md:text-4xl font-extrabold text-yellow-400 tracking-wide drop-shadow-lg">
+          /> */}
+          <h1 className="text-5xl md:text-6xl font-extrabold text-yellow-400 tracking-wide drop-shadow-lg">
             TEJAS ELECTRICALS
-          </h2>
+          </h1>
         </div>
 
         {/* Main heading */}
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
           Powering Pune with{" "}
           <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
             Safe & Reliable
           </span>{" "}
           Solutions
-        </h1>
+        </h2>
 
         {/* Subtitle */}
         <p className="text-lg mb-6 max-w-2xl mx-auto text-gray-200">

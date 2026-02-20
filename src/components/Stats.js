@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const Stats = () => {
   const stats = [
-    { label: "Projects Completed", value: "500+", icon: "🏗️" },
-    { label: "Happy Clients", value: "200+", icon: "😊" },
+    { label: "Projects Completed", value: "2500+", icon: "🏗️" },
+    { label: "Happy Clients", value: "2000+", icon: "😊" },
     { label: "Team Members", value: "10+", icon: "👥" },
-    { label: "Years Experience", value: "30+", icon: "⚡" }
+    { label: "Years Experience", value: "28+", icon: "⚡" }
   ];
 
   const containerVariants = {
